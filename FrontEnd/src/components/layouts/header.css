@@ -1,0 +1,110 @@
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.7;
+    color: #eee;
+}
+.headerbar-icon {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 80px;
+    z-index: 1000;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    background: 
+    linear-gradient(to right bottom, 
+    rgba(76, 216, 255, 0.8),
+    rgba(30, 108, 217, 0.8));
+    background-size: cover;
+    background-position: top;
+    background-color: transparent;
+    background-size: 100% 312px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    
+  }
+  
+  .headerbar-icon.scrolled {
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Tuỳ chỉnh thêm nếu cần */
+  .headerbar-icon-logopage{
+    margin-right: 8px;
+    font-size: 1.2rem;
+    color: #f1e0a8;
+    font-family: Cursive;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    backface-visibility: hidden;
+    cursor: pointer;
+  }
+  .headerbar-icon-logopage img{
+    margin-left: 35px;
+    margin-top: 10px;
+    width: 60px;
+    height: 60px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.headerbar-icon-user-color {
+    filter: brightness(0) invert(1);
+  }
+  .headerbar-icon-user {
+    margin-right: 80px;
+    margin-bottom: 15px;
+    width: 33px;
+    height: 33px;
+    cursor: pointer;
+  }
+  .headerbar-item{
+margin-left: 40%;
+  }
+  .headerbar-item ul{
+    
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+}
+.headerbar-btn{
+    margin: -20px;
+    margin-left: 20px;
+}
+.headerbar-btn:link,
+.headerbar-btn:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+    border-radius: 100px;
+    transition: all .2s;
+    position: relative;
+}
+
+.headerbar-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.headerbar-btn:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.headerbar-btn-white {
+   
+    color: #fffdfd;
+    font-weight: 600;
+  font-size: 14px;
+}

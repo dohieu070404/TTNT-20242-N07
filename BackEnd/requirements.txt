@@ -1,0 +1,7 @@
+flask==2.0.1
+flask-cors==3.0.10
+torch==1.9.0
+transformers==4.11.3
+vncorenlp==1.0.3
+py_vncorenlp==0.1.1
+scikit-learn

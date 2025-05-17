@@ -1,0 +1,50 @@
+/* Styles for the ProviderList */
+.wrapper {
+  margin-top: 40px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.thead {
+  background-color: #343a40;
+  color: #fff;
+}
+
+.tbody {
+  background-color: #fff;
+  color: #333;
+}
+
+.tr:nth-child(even) {
+  background-color: #f8f9fa;
+}
+
+.th, .td {
+  padding: 12px;
+  border: 1px solid #dee2e6;
+  text-align: center;
+}
+
+.button {
+  padding: 6px 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+.detail-view {
+  margin-top: 24px;
+  background: #f1f3f5;
+  padding: 20px;
+  border-radius: 8px;
+  display: none;
+}
